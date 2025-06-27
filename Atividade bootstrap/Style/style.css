@@ -1,0 +1,26 @@
+html, body {
+    height: 100%; /* Garante que o corpo e o HTML ocupem toda a altura da tela */
+    margin: 0; /* Remove margens padrões */
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo em uma coluna */
+  }
+  
+  .main-content {
+    flex-grow: 1; /* Faz com que a área principal cresça para ocupar o restante do espaço */
+  }
+  
+  .footer {
+    margin-top: auto; /* Faz com que o footer vá para o final */
+  }
+  
+
+.navbar{
+    background-color: black;
+}
+
+.footer{
+    background-color: black;
+}
